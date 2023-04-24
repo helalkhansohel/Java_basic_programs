@@ -1,0 +1,40 @@
+
+   -------------------------------------------------------------------
+  1)  String txt = "We are the so-called \"Vikings\" from the north.";
+  2.1)  String txt = "It\'s alright.";
+  2.2)String textBlock = """
+      		Hi
+      		Hello
+      		Yes""";
+  3)  int myInt = (int) myDouble;
+  4) String input= Integer.toString(inp);
+  5) int inp==Integer.parseInt(reverse) // string to int
+
+
+  -----------Filter-------------------
+  1)Take first character from a string as input
+    char val = sc.next().charAt(0);
+
+  2)
+  String txt = "Please locate where 'locate' occurs!";
+   System.out.println(txt.indexOf("locate")); // Outputs 7
+  3)
+  txt.length() // to get string length
+
+  ------------Compare----------------------
+  1) Variable_A.compareTo(Variable_A)==0 // if the the compair result is 0 then result is true & just compare the value not type
+
+  2) Character:
+   a)Character.isUpperCase(value) //To check the value is upper case or not
+   b)txt.toLowerCase()
+
+  ----------------Math-------------------
+  1)int randomNum = (int)(Math.random() * 101);  // 0 to 100
+  2)Math.max(5, 10); Math.min(5, 10);Math.sqrt(64);Math.abs(-4.7) [positive number];
+
+
+//----------functions---------------
+1)
+String s="a,b,c,d";
+ s.split(",")
+
